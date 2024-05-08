@@ -14,6 +14,9 @@ Un chat en tiempo real con Node.js, Express, y Socket.io. Los usuarios pueden cr
 
 - Node.js (versión 14 o superior)
 - npm (viene con Node.js)
+## Aquí una captura de pantalla de nuestro chat en acción:
+![Captura de Pantalla del Chat](public/images/foto.png)
+
 
 ## Instalación
 
@@ -24,4 +27,3 @@ Un chat en tiempo real con Node.js, Express, y Socket.io. Los usuarios pueden cr
   cd public
   npm install
   node server.js
-
