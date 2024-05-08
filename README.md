@@ -20,7 +20,7 @@ Un chat en tiempo real con Node.js, Express, y Socket.io. Los usuarios pueden cr
 1. **Clona el Repositorio:**
    ```bash
    git clone https://github.com/y4assin/M5_CHAT_YASSINE.git
-
+ ```bash
   cd public
   npm install
   node server.js
