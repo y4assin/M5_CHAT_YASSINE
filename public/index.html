@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat Yassine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <aside id="sidebar">
+        <h1>Chat Salas</h1>
+        <ul id="rooms-list"></ul>
+        <div id="room-creation">
+          <input
+            id="new-room-input"
+            type="text"
+            placeholder="Nombre de nueva sales"
+          />
+          <button id="create-room">Crear Sala</button>
+        </div>
+        <div id="room-joining">
+          <input id="room-input" type="text" placeholder="Enter Room Name" />
+          <button id="join-room">Unirse a Sala</button>
+        </div>
+      </aside>
+      <main id="chat-container">
+        <ul id="message-list"></ul>
+        <div id="message-input-container">
+          <input
+            id="message-input"
+            type="text"
+            placeholder="Escribe un mensaje"
+          />
+          <select id="emoji-selector">
+            <option value="">😊</option>
+            <option value="😊">😊</option>
+            <option value="😂">😂</option>
+            <option value="❤️">❤️</option>
+            <option value="👍">👍</option>
+            <option value="🎉">🎉</option>
+          </select>
+          <button id="send-message">Enviar</button>
+        </div>
+      </main>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <header id="navbar">
+        <h1>Chat Rooms</h1>
+        <ul id="rooms-list"></ul>
+        <input id="room-input" type="text" placeholder="Enter Room Name" />
+        <button id="join-room">Join Room</button>
+        <input id="new-room-input" type="text" placeholder="New Room Name" />
+        <button id="create-room">Create Room</button>
+      </header>
+      <section id="chat-section">
+        <ul id="message-list"></ul>
+        <input id="message-input" type="text" placeholder="Type a message" />
+        <button id="send-message">Send</button>
+      </section>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
